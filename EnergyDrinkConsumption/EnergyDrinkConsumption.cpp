@@ -1,10 +1,15 @@
-// This program estimate energy drink purchasing preferences from survey data
+// This program estimates energy drink purchasing preferences from survey data.
 #include <iostream>
 using namespace std;
 int main()
 {
 	cout << "Results From Surveyed Customers" << endl;
+	//Constants, Variables, and Calculations.
+	const int totalCustomers = 16500;
+	const double percentageEnergy = 0.15;
+	const double percentageCitrus = 0.58;
+	double energy_drink_customers = totalCustomers * percentageEnergy;
+	double citrus_customers = energy_drink_customers * percentageCitrus;
 
-   
 }
 
