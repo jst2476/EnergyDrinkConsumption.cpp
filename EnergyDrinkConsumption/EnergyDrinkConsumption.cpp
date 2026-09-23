@@ -17,6 +17,6 @@ int main()
 
 	cout << "Customers who purchase energy drinks weekly: " << energy_drink_customers;
 	cout << "Customers who prefer citrus energy drinks: " << citrus_customers;
-
+	return 0;
 }
 
